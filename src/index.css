@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-font-head{
+  font-family: "Oleo Script", system-ui;
+}
+
+body{
+  background-image: url("SYNTHETIX ‘ 24.png");
+  color: white;
+}
