@@ -7,8 +7,9 @@
 }
 
 body{
-  background-image: url("/SYNTHETIX24.png");
+  background-image: url("/revive.png");
   color: black;
+  background-size: cover;
 }
 
 h1 {

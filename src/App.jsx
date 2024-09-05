@@ -1,13 +1,13 @@
 import { useState } from 'react'
 import Timer from './componenets/Timer'
+import { Routes, Route } from 'react-router-dom'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <div className='flex h-[100vh] items-center justify-center'>
-      <Timer />
-    </div>
+    <Routes>
+    <Route path="/" element={<Timer />} />
+    {/* <Route path="/custom" element={<CustomTimer />} /> */}
+    </Routes>
   )
 }
 
